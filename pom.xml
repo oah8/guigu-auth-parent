@@ -8,6 +8,8 @@
     <module>common</module>
     <module>model</module>
     <module>service-system</module>
+      <module>common/spring-security</module>
+      <module>common/common-log</module>
   </modules>
   <version>1.0</version>
   <parent>
@@ -61,7 +63,7 @@
     </dependencies>
   </dependencyManagement>
 
-  <build>
+  <!--<build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -73,5 +75,5 @@
         </configuration>
       </plugin>
     </plugins>
-  </build>
+  </build>-->
 </project>

@@ -1,0 +1,30 @@
+DELETE http://localhost:8800/admin/system/sysRole/remove/1696519398610735106
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-29T221313.200.json
+
+###
+
+DELETE http://localhost:8800/admin/system/sysRole/remove/1696519398610735106
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-29T221310.200.json
+
+###
+
+GET http://localhost:8800/admin/system/sysRole/findAll
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-29T221208.200.json
+
+###
+
