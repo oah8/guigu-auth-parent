@@ -39,7 +39,6 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impl
     }
 
     // 更改用户状态
-
     @Override
     public void updateStatus(String id, Integer status) {
         // 根据用户id查询

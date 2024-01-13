@@ -2,6 +2,7 @@ package oah.project.system.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import oah.project.model.system.SysUserRole;
+import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -12,5 +13,6 @@ import org.springframework.stereotype.Repository;
  * @Version 1.0
  */
 @Repository
+@Mapper
 public interface SysUserRoleMapper extends BaseMapper<SysUserRole> {
 }

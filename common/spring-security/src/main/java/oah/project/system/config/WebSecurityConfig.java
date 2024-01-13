@@ -81,11 +81,13 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     /**
      * 配置哪些请求不拦截
      * 排除swagger相关请求
+     * 测试时需要添加"/admin/system/**"
      * @param web
      * @throws Exception
      */
     @Override
     public void configure(WebSecurity web) throws Exception {
-        web.ignoring().antMatchers("/favicon.ico","/swagger-resources/**", "/webjars/**", "/v2/**", "/swagger-ui.html/**", "/doc.html");
+        web.ignoring().antMatchers("/favicon.ico","/swagger-resources/**",
+                "/webjars/**", "/v2/**", "/swagger-ui.html/**", "/doc.html");
     }
 }
