@@ -18,9 +18,9 @@
                 and create_time >= #{vo.createTimeBegin}
             </if>
             <if test="vo.createTimeEnd != null and vo.createTimeEnd != ''">
-            and create_time &lt;= #{vo.createTimeEnd}
+                and create_time &lt;= #{vo.createTimeEnd}
             </if>
-            and is_deleted=0
+                and is_deleted=0
         </where>
         order by id desc
     </select>

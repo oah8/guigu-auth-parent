@@ -5,70 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d5f589b-856b-4002-89f7-64f0a3f6e5e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-log/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-log/src/main/java/oah/project/system/annotation/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-log/src/main/java/oah/project/system/aspect/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-log/src/main/java/oah/project/system/enums/BusinessType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-log/src/main/java/oah/project/system/enums/OperatorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-log/src/main/java/oah/project/system/service/OperLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/oah/project/common/result/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/oah/project/common/result/ResultCodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/oah/project/common/utils/IpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/oah/project/common/utils/JwtHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/oah/project/common/utils/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/oah/project/common/utils/MD5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/oah/project/common/utils/ResponseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/oah/project/system/config/Knife4jConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/oah/project/system/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/oah/project/system/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/oah/project/system/exception/GuiguException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/spring-security/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/oah/project/system/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/oah/project/system/custom/CustomMd5Password.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/oah/project/system/custom/CustomUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/oah/project/system/filter/TokenAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/oah/project/system/filter/TokenLoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/oah/project/system/service/LoginLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/oah/project/model/system/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/controller/SysLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/controller/SysMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/controller/SysOperLogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/controller/SysRoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/controller/SysUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/mapper/OperLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/mapper/SysLoginLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/mapper/SysMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/mapper/SysRoleMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/mapper/SysUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/mapper/SysUserRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/service/SysMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/service/SysRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/service/SysUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/service/impl/LoginLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/service/impl/OperLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/service/impl/SysMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/service/impl/SysRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/utils/MenuHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/utils/RouterHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/resources/mapper/SysMenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/resources/mapper/SysRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/test/java/oah/project/system/test/CodeGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/test/java/oah/project/system/test/SysRoleServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/controller/SysDeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/controller/SysPostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/mapper/SysDeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/mapper/SysPostMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/service/SysDeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/service/SysPostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/service/impl/SysDeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/service/impl/SysPostServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/utils/DeptHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/resources/mapper/SysDeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/resources/mapper/SysPostMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/service-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/oah/project/model/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/oah/project/model/base/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/mapper/SysRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/mapper/SysRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/src/main/java/oah/project/system/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/src/main/java/oah/project/system/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring-security/src/main/java/oah/project/system/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/oah/project/system/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/oah/project/model/vo/SysPostQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/oah/project/model/vo/SysPostQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/mapper/SysRoleMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/mapper/SysRoleMenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/mapper/SysUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/mapper/SysUserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/mapper/SysUserRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/java/oah/project/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-system/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-system/src/test/java/oah/project/system/test/SysRoleMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/test/java/oah/project/system/test/SysRoleMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/src/main/resources/mapper/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,16 +56,27 @@
         </map>
       </branch-storage>
     </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="G:\mvn-repo" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.8.8" />
-        <option name="userSettingsFile" value="G:\apache-maven-3.8.8\conf\settings.xml" />
+        <option name="localRepository" value="D:\develop-tools\mvn-repo" />
+        <option name="mavenHome" value="D:/develop-tools/apache-maven-3.8.8" />
+        <option name="userSettingsFile" value="D:\develop-tools\apache-maven-3.8.8\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="2UbpQEIvUbhMwTel9SfNuFZ2zI9" />
   <component name="ProjectLevelVcsManager">
@@ -129,17 +97,17 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/guigu-auth-parent/common/spring-security/src/main/java/oah/project/system/utils&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/guigu-auth-parent/service-system/src/main/resources/mapper&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;e9eeca287f286f0aba905a2ee1f70a76&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5cc3654d1ace13585a70644a3adacc67&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -147,17 +115,21 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="oah.project.system.service.impl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\guigu-auth-parent\service-system\src\main\resources\mapper" />
       <recent name="G:\guigu-auth-parent\common\spring-security\src\main\java\oah\project\system\utils" />
       <recent name="G:\guigu-auth-parent\common\common-util\src\main\java\oah\project\common\utils" />
       <recent name="G:\guigu-auth-parent\service-system\src\main\resources\mapper" />
       <recent name="G:\guigu-auth-parent\service-system\src\test\java\oah\project\system\test" />
-      <recent name="G:\guigu-auth-parent\model\src\main\java\oah\project\model" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="oah.project.system" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="oah.project.system.utils" />
       <recent name="oah.project.system.mapper" />
       <recent name="oah.project.common.utils" />
     </key>
@@ -189,22 +161,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oah.project.common.utils.JwtUtil" />
-      <module name="common-util" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oah.project.common.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="rest-api_2 | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http" index="2" requestIdentifier="#2" runType="Run single request">
-      <method v="2" />
-    </configuration>
     <configuration name="ServiceAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="service-system" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="oah.project.system.ServiceAuthApplication" />
@@ -218,13 +174,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CodeGet" />
+      <item itemvalue="Application.JwtHelper" />
+      <item itemvalue="Spring Boot.ServiceAuthApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ServiceAuthApplication" />
         <item itemvalue="Application.JwtHelper" />
-        <item itemvalue="Application.JwtUtil" />
         <item itemvalue="Application.CodeGet" />
-        <item itemvalue="HTTP Request.rest-api_2 | #2" />
       </list>
     </recent_temporary>
   </component>
@@ -250,6 +209,31 @@
       <workItem from="1695132808341" duration="1003000" />
       <workItem from="1695172501574" duration="8562000" />
       <workItem from="1695719105276" duration="38292000" />
+      <workItem from="1695959610833" duration="180000" />
+      <workItem from="1695960081010" duration="12000" />
+      <workItem from="1695960100255" duration="602000" />
+      <workItem from="1696077466803" duration="939000" />
+      <workItem from="1696514206371" duration="678000" />
+      <workItem from="1696588881374" duration="4167000" />
+      <workItem from="1696935193302" duration="1198000" />
+      <workItem from="1697857918989" duration="314000" />
+      <workItem from="1697858251186" duration="3534000" />
+      <workItem from="1697941590458" duration="1393000" />
+      <workItem from="1698034723131" duration="599000" />
+      <workItem from="1698222746880" duration="393000" />
+      <workItem from="1698225802590" duration="143000" />
+      <workItem from="1699888654137" duration="1188000" />
+      <workItem from="1700566738860" duration="600000" />
+      <workItem from="1700628342904" duration="856000" />
+      <workItem from="1700630166714" duration="604000" />
+      <workItem from="1700714376035" duration="14000" />
+      <workItem from="1700890430499" duration="78000" />
+      <workItem from="1701060495168" duration="26000" />
+      <workItem from="1704948694848" duration="5143000" />
+      <workItem from="1704984413682" duration="1012000" />
+      <workItem from="1704985440348" duration="2424000" />
+      <workItem from="1705014522632" duration="24382000" />
+      <workItem from="1705103097564" duration="4055000" />
     </task>
     <servers />
   </component>
@@ -275,29 +259,9 @@
           <option name="timeStamp" value="2" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/service-system/src/main/java/oah/project/system/service/impl/UserDetailsServiceImpl.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/oah/project/system/filter/TokenLoginFilter.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/oah/project/system/filter/TokenLoginFilter.java</url>
           <line>107</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/oah/project/system/filter/TokenAuthenticationFilter.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/oah/project/system/filter/TokenAuthenticationFilter.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/oah/project/system/filter/TokenLoginFilter.java</url>
